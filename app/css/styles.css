@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+.content {
+  width: 50%;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.header {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  border-bottom: 4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.url-icon {
+  margin-right: 15px;
+}
+
+.project {
+  margin: 20px auto;
+  border-bottom: 1px solid black;
+}
+
+.project-item {
+  margin: 7px auto;
+}
+
+.project-icon {
+  width: 15px;
+  height:15px;
+}
+
+.project-url {
+  color: blue;
+  text-decoration: none;
+}
