@@ -34,9 +34,40 @@ body {
 .project-icon {
   width: 15px;
   height:15px;
+  margin-right: 5px;
+  float: left;
+}
+
+.project-text {
+  overflow: hidden;
 }
 
 .project-url {
   color: blue;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .content {
+    width: 97%;
+  }
+
+  .header {
+    width: 97%;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    width: 97%;
+  }
+
+  .header {
+    width: 97%;
+  }
+
 }
